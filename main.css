@@ -103,8 +103,65 @@ body {
   color: #666;
   padding: 40px 0;
 
+}
+
+/*iphone x*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
+
+/*Iphone 8*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    
+    .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
 
 @media (max-width: 575.98px) {
+
   .description {
     left: 0;
     padding: 0 15px;
