@@ -90,8 +90,11 @@ body {
   -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 16px;
+  width:65%;
 
 }
+
+
 
 /*footer*/
 .page-footer {
