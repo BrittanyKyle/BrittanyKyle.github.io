@@ -33,6 +33,12 @@ body {
   background-position: center;
   position: relative;
 }
+.question header {
+  background-image: url('images/cherry2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
 .description {
   left: 50%;
